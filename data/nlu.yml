@@ -1,99 +1,123 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+- intent: xin chào
 
-- intent: goodbye
+  examples: 
+    - Chào mừng bạn tới tiệm pizza của chúng tôi
+    - Xin chào, tiệm pizza hân hạnh được phục vụ bạn
+    - Xin chào, chúng tôi có thể giúp gì được cho bạn
+  
+- lookup: lựa chọn phục vụ
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - 1.Đặt làm pizza riêng (lựa chọn phục vụ)
+    - 2.Xem chương trình khuyến mãi(lựa chọn phục vụ)
+    - 3.Xem thông tin cửa hàng (lựa chọn phục vụ)
+    - 4.Chăm sóc khách hàng (lựa chọn phục vụ)
+    - 5.Lựa chọn sản phẩm (lựa chọn phục vụ)
+    - 6.Kết thúc(lựa chọn phục vụ)
+##Chăm sóc khách hàng   
+- lookup: Tư vấn về pizza
+  examples: |
+    - 1.Lựa chọn nhiều nhất của cửa tiệm
+    - 2.Lựa chọn kiểu đặc biệt trong ngày
+    - 3.Lựa chọn chi tiết của các loại pizza
+##Lựa chọn pizza
+-lookup: Lựa chọn sản phẩm
+  examples: |
+    - Cloud 9
+    - peppy panner
+    - roman veg sup
+    - La Fermière
+    - La Californie
+    - La 4 Fromages
+    - L' Hawaienne
+    - La Méditerranée
+    - Frozen Margherita Pizza
+    - Frozen Pancetta pizza
+    - Frozen Tartufo pizza
+    - Pizza Calzone
 
-- intent: affirm
+- lookup: Lựa chọn size
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - 1.Nhỏ
+    - 2.Vừa 
+    - 3.Lớn
+    - 4.Siêu lớn
 
-- intent: deny
+- lookup: Toppiing
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - Black Olive
+    - Crisp Capsicum
+    - Paneer
+    - Mushroom
+    - Onion
+    - Fresh Tomato
+    - Chicken Salami
+    - Chunky Chicken
+    - Hot n Spic
+    - Bbq Chicken
+    - Babycorn
+    - Red Paprika
+    - Jalapeno
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+- lookup: Chọn đồ uống
+    examples: |
+      - Coca
+      - Pesi
+      - Soda
+      - C2
+      - Không độ
+      - red bull
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+- intent: Số lương
+    examples: 
+      - Vui lòng hãy nhập số lượng
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+- lookup: Yêu cầu kèm thêm ## Để khách hàng tự nhập
+    examples: |
+      - 1.Có
+      - 2.Không
 
-- intent: insult_sorry
+- lookup: Xác nhận đơn hàng
   examples: |
-    - you're a cunt
-    - fuck you
-    - I hate you
-    - You suck
-    - Your mama so fat you are born malnourished
+      - 1.Chọn lại
+      - 2.Xác nhận
+      
+##Xem thông tin cửa hàng
+- lookup: Thông tin cửa hàng
+  examples:
+      - Bạn có thể xem thông tin trên trang web của cửa hàng ở {"entity": "inform", "value": "Thông tin"}
+      - Số điện thoại để bạn có thể đặt hàng và hỏi thêm thông tin là {"entity": "inform", "value": "Thông tin"}
+      - Email để bạn có thể hỏi thêm thông tin của cửa hàng là {"entity": "inform", "value": "Thông tin"}
+##Xem chương trình khuyến mãi
+- lookup: Chương trình khuyến mãi
+  examples:
+      - Chương trình khuyến mãi đặc biệt trong ngày (khuyến mãi)
+      - Ngày đặc biệt (khuyến mãi)
+      - Khách hàng đặt lần đầu tiên (khuyến mãi)
+##Đặt làm pizza riêng
+- intent: Nhập nguyên liệu bạn muốn có trong pizza
+  examples:
+      - Vui lòng hãy nhập nguyên liệu bạn muốn có trong pizza như Nước sốt, Topping, Phô mai
+##Xác nhận thông tin khách hàng
+- intent: Vui lòng nhập số điện thoại
+- intent: Vui lòng nhập địa chỉ
+- lookup: Vui lòng chọn phương thức thanh toán
+  examples: |
+    - 1. Thanh toán online
+    - 2. Thanh toán khi nhân hàng
+- lookup: Bạn có muốn đặt thêm pizza ?
+  examples: |
+    - 1.Có
+    - 2.Không
+
+##Kết thúc
+- intent: tạm biệt
+  examples: 
+    - Cảm ơn đã chọn hãng pizza của chúng tôi. Hẹn gặp bạn vào lần sau
+    - Cảm ơn bạn đã ủng hộ. Hẹn gặp bạn vào lần sau
+    - Cảm ơn và chúc bạn một ngày tốt lành ##sau khi hỏi về sản phẩm và không mua
+    
+
+
