@@ -8,7 +8,7 @@ nlu:
     - Xin chào, tiệm pizza hân hạnh được phục vụ bạn
     - Xin chào, chúng tôi có thể giúp gì được cho bạn
   
-- lookup: lựa chọn phục vụ
+- intent: lựa chọn phục vụ
   examples: |
     - 1.Đặt làm pizza riêng (lựa chọn phục vụ)
     - 2.Xem chương trình khuyến mãi(lựa chọn phục vụ)
@@ -17,13 +17,13 @@ nlu:
     - 5.Lựa chọn sản phẩm (lựa chọn phục vụ)
     - 6.Kết thúc(lựa chọn phục vụ)
 ##Chăm sóc khách hàng   
-- lookup: Tư vấn về pizza
+- intent: Tư vấn về pizza
   examples: |
     - 1.Lựa chọn nhiều nhất của cửa tiệm
     - 2.Lựa chọn kiểu đặc biệt trong ngày
     - 3.Lựa chọn chi tiết của các loại pizza
 ##Lựa chọn pizza
--lookup: Lựa chọn sản phẩm
+-intent: Lựa chọn sản phẩm
   examples: |
     - Cloud 9
     - peppy panner
@@ -38,14 +38,14 @@ nlu:
     - Frozen Tartufo pizza
     - Pizza Calzone
 
-- lookup: Lựa chọn size
+- intent: Lựa chọn size
   examples: |
     - 1.Nhỏ
     - 2.Vừa 
     - 3.Lớn
     - 4.Siêu lớn
 
-- lookup: Toppiing
+- intent: Toppiing
   examples: |
     - Black Olive
     - Crisp Capsicum
@@ -61,7 +61,7 @@ nlu:
     - Red Paprika
     - Jalapeno
 
-- lookup: Chọn đồ uống
+- intent: Chọn đồ uống
     examples: |
       - Coca
       - Pesi
@@ -74,24 +74,24 @@ nlu:
     examples: 
       - Vui lòng hãy nhập số lượng
 
-- lookup: Yêu cầu kèm thêm ## Để khách hàng tự nhập
+- intent: Yêu cầu kèm thêm ## Để khách hàng tự nhập
     examples: |
       - 1.Có
       - 2.Không
 
-- lookup: Xác nhận đơn hàng
+- intent: Xác nhận đơn hàng
   examples: |
       - 1.Chọn lại
       - 2.Xác nhận
       
 ##Xem thông tin cửa hàng
-- lookup: Thông tin cửa hàng
+- intent: Thông tin cửa hàng
   examples:
       - Bạn có thể xem thông tin trên trang web của cửa hàng ở {"entity": "inform", "value": "Thông tin"}
       - Số điện thoại để bạn có thể đặt hàng và hỏi thêm thông tin là {"entity": "inform", "value": "Thông tin"}
       - Email để bạn có thể hỏi thêm thông tin của cửa hàng là {"entity": "inform", "value": "Thông tin"}
 ##Xem chương trình khuyến mãi
-- lookup: Chương trình khuyến mãi
+- intent: Chương trình khuyến mãi
   examples:
       - Chương trình khuyến mãi đặc biệt trong ngày (khuyến mãi)
       - Ngày đặc biệt (khuyến mãi)
@@ -103,11 +103,11 @@ nlu:
 ##Xác nhận thông tin khách hàng
 - intent: Vui lòng nhập số điện thoại
 - intent: Vui lòng nhập địa chỉ
-- lookup: Vui lòng chọn phương thức thanh toán
+- intent: Vui lòng chọn phương thức thanh toán
   examples: |
     - 1. Thanh toán online
     - 2. Thanh toán khi nhân hàng
-- lookup: Bạn có muốn đặt thêm pizza ?
+- intent: Bạn có muốn đặt thêm pizza ?
   examples: |
     - 1.Có
     - 2.Không
