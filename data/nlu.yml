@@ -47,8 +47,11 @@ nlu:
     - Xin hãy chọn kích thước pizza bạn muốn ? 
     - Xin hỏi bạn muốn đặt kích thước pizza loại nào ?
 
-# - intent: Toppiing
-#   examples: |
+ - intent: Toppiing
+   examples: |
+      - Bạn có muốn thêm topping vào pizza của bạn không ?
+      - Topping mà bạn muốn thêm là ?
+      - Hãy lựa chọn topping bạn muốn thêm vào
 #     - Black Olive
 #     - Crisp Capsicum
 #     - Paneer
