@@ -1,75 +1,72 @@
 version: "3.1"
 
 nlu:
-- intent: Greeting
+- intent: Welcome to our pizza shop
 
   examples: 
-    - Chào mừng bạn tới tiệm pizza của chúng tôi
-    - Xin chào, tiệm pizza hân hạnh được phục vụ bạn
-    - Xin chào, chúng tôi có thể giúp gì được cho bạn
-  
-- intent: sevice option
-  examples: |
-    - Đặt làm pizza riêng (lựa chọn phục vụ)
-    - Xem chương trình khuyến mãi(lựa chọn phục vụ)
-    - Xem thông tin cửa hàng (lựa chọn phục vụ)
-    - Chăm sóc khách hàng (lựa chọn phục vụ)
-    - Lựa chọn sản phẩm (lựa chọn phục vụ)
-    - Kết thúc(lựa chọn phục vụ)
-##Chăm sóc khách hàng   
-- intent: Product information
-  examples: |
-    - Lựa chọn nhiều nhất của cửa tiệm(thông tin sản phẩm)
-    - Lựa chọn kiểu đặc biệt trong ngày(thông tin sản phẩm)
-    - Lựa chọn chi tiết của các loại pizza(thông tin sản phẩm)
-##Lựa chọn pizza
--intent: order pizza
-  examples: |
-    - Xin vui lòng chọn loại pizza bạn thích
-    - Đây là các loại pizza của cửa tiệm chúng tôi
+    - Xin chào
+    - Alo
+    - Chào
+    - Xin hỏi 
+    - Chào cửa hàng
+    - Cho tôi hỏi
+    - Hi
+    - Xin chào cửa hàng
+    - Cho tôi đặt pizza
     - 
-  # - Cloud 9
-    # - peppy panner
-    # - roman veg sup
-    # - La Fermière
-    # - La Californie
-    # - La 4 Fromages
-    # - L' Hawaienne
-    # - La Méditerranée
-    # - Frozen Margherita Pizza
-    # - Frozen Pancetta pizza
-    # - Frozen Tartufo pizza
-    # - Pizza Calzone
-
-- intent: order size
+  
+- intent: Please select your option
   examples: |
-    - Xin hãy chọn kích cỡ pizza bạn muốn đặt ?
-    - Xin hãy chọn kích thước pizza bạn muốn ? 
-    - Xin hỏi bạn muốn đặt kích thước pizza loại nào ?
+    - Cửa hàng có gì ?
+    - Phục vụ
+    - Lựa chọn
+    - Cho tôi hỏi
+    - Menu
+    - Tôi muốn
+    - Liệu tôi có thể hỏi
+    
+##Chăm sóc khách hàng   
 
- - intent: Toppiing
-   examples: |
-      - Bạn có muốn thêm topping vào pizza của bạn không ?
-      - Topping mà bạn muốn thêm là ?
-      - Hãy lựa chọn topping bạn muốn thêm vào
-#     - Black Olive
-#     - Crisp Capsicum
-#     - Paneer
-#     - Mushroom
-#     - Onion
-#     - Fresh Tomato
-#     - Chicken Salami
-#     - Chunky Chicken
-#     - Hot n Spic
-#     - Bbq Chicken
-#     - Babycorn
-#     - Red Paprika
-#     - Jalapeno
+##Lựa chọn pizza
+-intent: Please choose pizza 
+  examples: |
+    - Đặt pizza
+    - Cho tôi đặt
+    - Có những loại pizza nào
+    - Menu pizza
+    - Pizza type
+    - pizza các loại
+    - Danh sách pizza
+    - Tôi muốn loại pizza
+    - Cho tôi loại pizza
+    - Cho tôi chọn 
+
+
+- intent: size option
+  examples: |
+    - Chọn kích thước
+    - Tôi muốn kích thước loại
+    - Kích thước pizza tôi muốn
+    - Liệu tôi có thể chọn kích thước của pizza ?
+    - pizza có kích thước loại gì
+
+
 
 - intent: Drink selection
     examples:
-        - Bạn có muốn chọn đồ uống kèm theo ?
-        - Hãy chọn đồ uống kèm theo bạn muốn
+        - Tôi muốn có đồ uống kèm
+        - Cửa hàng có đồ uống không ?
+        - Cho tôi xin menu đồ uống
+        - Cửa hàng có những loại đồ uống nào ?
+        - Danh sách đồ uống 
+        - Cho tôi xem menu đồ uống
+        - Đồ uống
+        - Nước giải khát
+        - Nước ngọt
+        - Nước uống đi kèm
+        - Cho tôi đặt đồ uống
+        - Đồ uống các loại
+        - Giải khát
         
     # examples: |
     #   - Coca
@@ -79,68 +76,98 @@ nlu:
     #   - Không độ
     #   - red bull
 
-- intent: How many pizza ?
+- intent: How many pizzas do you want to order?
     examples: 
-      - Xin vui lòng nhập số lượng pizza bạn muốn đặt
-      - Bạn muốn đặt bao nhiêu pizza ?
-      - Số lượng pizza bạn muốn đặt là 
-
+      - Có thể đặt số lượng pizza không ?
+      - Tôi muốn đặt nhiều pizza
+      - Nhiều pizza
+      - Số lượng
+      - Đặt nhiều trong 1 lần
+      
 - intent: Additional request ## Để khách hàng tự nhập
     examples: |
-      - Bạn có yêu cầu kèm thêm nào trong pizza của bạn không ?
-      - Bạn có muốn pizza của mình kèm thêm gì không ?
-      - Xin hãy nhập yêu cầu kèm thêm bạn muốn trong pizza 
-      - Yêu cầu kèm thêm bạn muốn có trong pizza là 
+      - Tôi muốn thêm 
+      - Muốn thêm topping
+      - Yêu cầu
+      - Cho tôi đặt riêng
+      - Liệu tôi có thể đặt pizza riêng không ? 
+      - Có thể cho tôi 
 
-- intent: Order confirmation
+- intent: Please confirm your order
   examples: |
-      - Xin hãy xác nhận đơn hàng bạn đặt
-      - Đây là pizza bạn muốn đặt ?
-      - Xin hãy xác nhận yêu cầu bạn đã đặt
+      - Hoàn tất đặt hàng
+      - Xong
+      - Đủ rồi
+      - Hoàn thành đặt hàng
+      - Đã đặt xong
+      - Tôi đặt xong pizza rồi
+      - Đủ rồi
+      - Được rồi
+      - Xong rồi
+      - Có thể giao hàng
+      - Đã xong
+      
       
 
       
 ##Xem thông tin cửa hàng
-- intent: Shop information
+- intent: Email để bạn có thể hỏi thêm thông tin của cửa hàng là ,Số điện thoại để bạn có thể đặt hàng và hỏi thêm thông tin là ,Bạn có thể xem thông tin trên trang web của cửa hàng ở
   examples:
-      - Bạn có thể xem thông tin trên trang web của cửa hàng ở {"entity": "inform", "value": "Thông tin"}
-      - Số điện thoại để bạn có thể đặt hàng và hỏi thêm thông tin là {"entity": "inform", "value": "Thông tin"}
-      - Email để bạn có thể hỏi thêm thông tin của cửa hàng là {"entity": "inform", "value": "Thông tin"}
+      - Cho tôi hỏi cửa hàng ở đâu {"entity": "inform", "value": "Thông tin"}
+      - Số điện thoại của cửa hàng là bao nhiêu{"entity": "inform", "value": "Thông tin"}
+      - Thông tin của cửa hàng{"entity": "inform", "value": "Thông tin"}
+      - Liệu tôi có thể hỏi vài thông tin ?{"entity": "inform", "value": "Thông tin"}
 ##Xem chương trình khuyến mãi
 - intent: Promotions
   examples:
       - Chương trình khuyến mãi đặc biệt trong ngày (khuyến mãi)
       - Ngày đặc biệt (khuyến mãi)
       - Khách hàng đặt lần đầu tiên (khuyến mãi)
+      - Khuyến mãi
+      - Hôm nay có khuyến mãi gì ? 
+      - Có khuyến mãi gì không ?
+      - Tôi có thể hỏi khuyến mãi hôm nay ?
+      - Có chương trình khuyến mãi gì không ?
+      - Có sự kiện gì ?
+
 ##Đặt làm pizza riêng
 
 ##Xác nhận thông tin khách hàng
-- intent: Confirm number
-    examples:
-      - Vui lòng nhập số điện thoại của bạn
-      - Số điện thoại của bạn là ?
-      - Xin hãy cho biết số điện thoại của bạn
-- intent: address confirmation
-    examples:
-      - Xin vui lòng nhập địa chỉ của bạn
-      - Địa chỉ bạn muốn nhận hàng là
-      - Bạn muốn nhận hàng ở địa chỉ nào
+
+
+
 - intent: choose payment method
   examples: |
-    - Bạn muốn thanh toán qua phương thức nào ?
-    - Xin vui lòng chọn phương thức thanh toán
-    - Phương thức thanh toán bạn muốn là
-- intent: order more pizza
+    - Thanh toán qua phương thức nào ?
+    - Tôi muốn thanh toán
+    - Trả tiền kiểu gì ?
+    - Thanh toán
+    - Xong
+    - Hóa đơn
+    - Biên lai
+    - Thanh toán bằng thẻ
+- intent: confirm order more pizza
   examples: |
-    - Bạn có muốn đặt thêm pizza không ? 
-    - Bạn đã đặt xong đơn hàng của bạn ?
-    - Bạn có muốn đặt thêm pizza nữa không ?
+    - Tôi muốn đặt thêm pizza
+    - Liệu tôi có thể thay đổi lựa chọn ?
+    - Tôi có thể đặt thêm pizza không ?
+    - pizza đặt thêm
+    - Đặt thêm
+    - Thêm đơn hàng
+    - Thêm pizza
 ##Kết thúc
-- intent: Goodbye
+- intent: Goodbye, Thanks for use our service
   examples: 
-    - Cảm ơn đã chọn hãng pizza của chúng tôi. Hẹn gặp bạn vào lần sau
-    - Cảm ơn bạn đã ủng hộ. Hẹn gặp bạn vào lần sau
-    - Cảm ơn và chúc bạn một ngày tốt lành ##sau khi hỏi về sản phẩm và không mua
+    - Tạm biệt
+    - Hẹn gặp lại
+    - Đã đặt hàng xong
+    - Goodbye
+    - Hẹn gặp lần sau
+    - Trưa mai tôi đặt tiếp
+    - Tối mai tôi đặt tiếp
+
+   
+
     
 
 
