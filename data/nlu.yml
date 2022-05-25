@@ -1,7 +1,7 @@
 version: "3.1"
 
 nlu:
-- intent: Welcome to our pizza shop
+- intent: Greeting
 
   examples: 
     - Xin chào
@@ -15,7 +15,7 @@ nlu:
     - Cho tôi đặt pizza
     - 
   
-- intent: Please select your option
+- intent: Select_option
   examples: |
     - Cửa hàng có gì ?
     - Phục vụ
@@ -28,7 +28,7 @@ nlu:
 ##Chăm sóc khách hàng   
 
 ##Lựa chọn pizza
--intent: Please choose pizza 
+-intent: Choose_pizza 
   examples: |
     - Đặt pizza
     - Cho tôi đặt
@@ -42,7 +42,7 @@ nlu:
     - Cho tôi chọn 
 
 
-- intent: size option
+- intent: size_option
   examples: |
     - Chọn kích thước
     - Tôi muốn kích thước loại
@@ -52,7 +52,7 @@ nlu:
 
 
 
-- intent: Drink selection
+- intent: Drink_option
     examples:
         - Tôi muốn có đồ uống kèm
         - Cửa hàng có đồ uống không ?
@@ -76,7 +76,7 @@ nlu:
     #   - Không độ
     #   - red bull
 
-- intent: How many pizzas do you want to order?
+- intent: Asking_howmany_pizza
     examples: 
       - Có thể đặt số lượng pizza không ?
       - Tôi muốn đặt nhiều pizza
@@ -84,7 +84,7 @@ nlu:
       - Số lượng
       - Đặt nhiều trong 1 lần
       
-- intent: Additional request ## Để khách hàng tự nhập
+- intent: Additional_request ## Để khách hàng tự nhập
     examples: |
       - Tôi muốn thêm 
       - Muốn thêm topping
@@ -93,7 +93,7 @@ nlu:
       - Liệu tôi có thể đặt pizza riêng không ? 
       - Có thể cho tôi 
 
-- intent: Please confirm your order
+- intent: Confirm_order
   examples: |
       - Hoàn tất đặt hàng
       - Xong
@@ -111,7 +111,7 @@ nlu:
 
       
 ##Xem thông tin cửa hàng
-- intent: Email để bạn có thể hỏi thêm thông tin của cửa hàng là ,Số điện thoại để bạn có thể đặt hàng và hỏi thêm thông tin là ,Bạn có thể xem thông tin trên trang web của cửa hàng ở
+- intent: Shop_information
   examples:
       - Cho tôi hỏi cửa hàng ở đâu {"entity": "inform", "value": "Thông tin"}
       - Số điện thoại của cửa hàng là bao nhiêu{"entity": "inform", "value": "Thông tin"}
@@ -136,7 +136,7 @@ nlu:
 
 
 
-- intent: choose payment method
+- intent: choose_payment_method
   examples: |
     - Thanh toán qua phương thức nào ?
     - Tôi muốn thanh toán
@@ -146,7 +146,7 @@ nlu:
     - Hóa đơn
     - Biên lai
     - Thanh toán bằng thẻ
-- intent: confirm order more pizza
+- intent: confirm_orther_pizza
   examples: |
     - Tôi muốn đặt thêm pizza
     - Liệu tôi có thể thay đổi lựa chọn ?
@@ -156,7 +156,7 @@ nlu:
     - Thêm đơn hàng
     - Thêm pizza
 ##Kết thúc
-- intent: Goodbye, Thanks for use our service
+- intent: Goodbye
   examples: 
     - Tạm biệt
     - Hẹn gặp lại
