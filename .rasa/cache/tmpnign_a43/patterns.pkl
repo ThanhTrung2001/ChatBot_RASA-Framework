@@ -1,0 +1,10 @@
+[
+  {
+    "name": "name",
+    "pattern": "/^([a-z]{1,10})((\\s{1}[a-z]{1,10}){1,4})$"
+  },
+  {
+    "name": "topping",
+    "pattern": "(\\bPepperoni\\b|\\bMushroom\\b|\\bExtra\\ cheese\\b|\\bSausage\\b|\\bOnion\\b|\\bBlack\\ olives\\b|\\bGreen\\ pepper\\b|\\bFresh\\ garlic\\b)"
+  }
+]

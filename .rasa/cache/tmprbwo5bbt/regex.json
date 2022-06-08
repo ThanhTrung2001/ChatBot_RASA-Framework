@@ -1,0 +1,10 @@
+[
+  {
+    "name": "topping",
+    "pattern": "(\\bXúc\\ xích\\ hun\\ khói\\b|\\bNấm\\b|\\bThêm\\ phô\\ mai\\b|\\bLạp\\ xưởng\\b|\\bHành\\b|\\bÔ\\ liu\\ đen\\b|\\bỚt\\ xanh\\b|\\bTỏi\\ tươi\\b|\\bCà\\ chua\\b|\\bHúng\\ quế\\b)"
+  },
+  {
+    "name": "pizza_type",
+    "pattern": "(\\bbò\\b|\\bgà\\b|\\bhải\\ sản\\b|\\bheo\\b|\\băn\\ chay\\b)"
+  }
+]

@@ -1,5 +1,6 @@
 version: "3.1"
 
+
 intents:
   - greet
   - goodbye
@@ -8,30 +9,94 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - insult_sorry
+  - user_give_name_info
+  - choose_topping
+  - get_pizza_menu
+  - choose_pizza_type
+  - choose_pizza
+  - ask_for_topping
+  - choose_pizza_size
+  - ask_pizza_size
+  - choose_drink
+  - ask_for_drink
+
+entities:
+  - address
+  - drink
+  - pizza_type
+  - customer_name
+  - topping
+  - pizza_size
+  - pizza
+
+slots:
+  customer_name: 
+    type: text
+    mappings:
+    - type: from_entity
+      entity: customer_name
+  topping:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: topping
+  pizza_type:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: pizza_type
+  pizza:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: pizza
+  pizza_size:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: pizza_size
+  drink:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: drink
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+  - text: "Chào mừng bạn đến cửa hàng pizza RCB" ## thêm tên cửa hàng
+  - text: "Chào bạn"
   utter_goodbye:
-  - text: "Bye"
-
+  - text: "Cảm ơn bạn đã sư dụng dịch vụ của cửa hàng"
+  utter_pizza_type:
+  - text: "your chosen pizza type: {pizza_type}" # test
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
+  utter_promotion:
+  - text: "promotion"
   utter_sorry:
-  - text: "I'm sorry for being a bad Bot OwO"
+  - text: "Xin lỗi bạn có thể nhắn lại được không"
+  utter_happy:
+  - text: "why you make me utter happy man"
+  utter_user_name:
+  - text: "hello {customer_name} thank you for providing your info"
+  utter_topping:
+  - text: "the topping you have chosen is {topping}"
+  utter_pizza:
+  - text: "pizza bạn đã chọn là {pizza}"
+  utter_ask_if_want_topping:
+  - text: "bạn có muốn thêm topping cho pizza của mình không ?"
+  - text: "bạn có thể thêm topping cho pizza của mình đấy bạn có muốn thêm không ?"
+  utter_pizza_info:
+  - text: "loại pizza {pizza_type} \npizza: {pizza} \nkích cỡ: {pizza_size} \ntopping: {topping} \n đồ uống: {drink}" 
+  utter_pizza_size:
+  - text: "pizza size {pizza_size}"
+  
+actions:
+- action_show_pizza_types
+- action_show_pizza_from_type
+- action_show_pizza_toppings
+- action_show_pizza_size
+- action_show_drink_options
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

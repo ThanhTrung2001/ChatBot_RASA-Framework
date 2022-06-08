@@ -1,0 +1,18 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_show_pizza_types",
+    "eJydjEEKgCAQAL/iA3qBX4lYJJZaqE3WtUjx7wl6jaDbDAwz5jKY7AVPcLPSwdbkBsBuR2u6bBQUubYxoNSGuKpaswiilo9HVEWBlv47dAnrcYGnlBzo7TG83qYH5hBSvg==": "action_listen",
+    "eJylj1EKgCAQBa/iATqBV4lYJB4llIq7FiXePaE++omg/nZgmMe2uTQqh4iFTC/WO63yeZAzM7S6YLIscNVNjFgd6yqKVkMEpLw0kggineq3wgU8+pWC3XdDsgXwv9rTT/3oPeO2U0p3AIuycao=": "action_show_pizza_from_type",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZAOUUZ+SXxxdkVlUlxpdUFqQWU2YaLj8lZ+TnF6ci2UO669KK8nMhWokxPRYAA9mWiQ==": "action_listen",
+    "eJytj0EKAjEMRa/SA3iCXkUklOHrFJymJBnFKb27hc7CjYyj7vLg5+XnWOrBlSy4URgscvKu9IFSmODdCteohtSys0JaJqaG5t1FAKsbjtkMQj36nWEFHflOOS5LIHtk6G+2dz8NI7Pi5c7+dmfhqa/+zf5J21pPT1M7s1Q=": "utter_ask_if_want_topping",
+    "eJytkVEKg0AMRK+yB+gJ9ipSwiJRQ2uybGKlLt69C+tHf4q29i8Dk5cZ0uT14nJM+IDQGgl7l+sAHEb0bhN3UkMu3kkxFQ9xkeZdnxBt3WFMZpigWn8jbEIHmSHSsgSwZ0Q9R/vUqR1EFN/ufJ+uSzLW1b/Rj6Q99oigN6AO5sAGJjES93vY6wsE6tUs": "action_listen",
+    "eJytkWEKgzAMha/SA+wEvcoYobioYZqUNk609O4r1B/7M3Rz//Lg5ct75JryxSQf8AmuURK2JtUB2I1ozSYGiopcvFPEUDzERao1XUDUvMOYVDFAtf5G2ETsZQZP6+pAF4/xHO1Tp6YXifh25/t0bZCxrv6NfiTtsUe4+ABqYXasoOI9cXcOu5PwjrzkfHsBK5fumQ==": "utter_pizza_info",
+    "eJytkVEKgzAMhq/SA+wEXmWMUFyqYTMpbZxo8e4r1Ie9iN3cW3748+VPck3rxSQf8AW2VRJuTCoFsB2wMZt4UlTk7B0jhuwhzlIb0wVEXQ8YoyoGKNbfCJuIvUzgaVks6OwxnqPt7dT2IhE/5nyfzgUZSuvf6DVp6x5h4wPIwWRZQcV74u4c9iDhHXmuS1aOQuxkj3J7Ax2WCXU=": "action_listen",
+    "eJytkdEJwzAMRFfxAJ0gq5QiTJAT0doyltLQGO9eg/ORn5K06Z8OTk936JrLxeSY8Am2V+LQmdwGCNZjZ1bxIFEM1TsJpuqhUKV2ZkiIWnYYkyomaNbfCKuQkWeItCwW9BVRztE+depHZsHNne/TucS+rf6NfiTtsUdYuQM5mG1QUI6RwnAOu5PQOkfJl3J7Awl8714=": "action_show_pizza_toppings",
+    "eJytkWEKwjAMha/SA3iCXUUklJFuQZuWJnO4srtb6AR/KJub//Lg5csL75znk8kx4R1sqxS4MbkOwNZjYxZxI1Hk4h0EU/EQF6mN6RKiziuMQRUTVOs+wiKkDyNEmiYL+ogox2jffmr7EATf7vyezqXg6+rf6FvSbivCyhXIwWhZQUOMxN0x7EpC6xwlv6Pimu1Dyy/i5QnVjg8x": "action_listen",
+    "eJytkWsKwyAQhK/iAXoCr1LKImFNltYHumloxLtXMIH+aDGP/tuB8dtx55ryRSQf8AmqY3JWilQHsMqgFIt4UGS0xTtGDMVDtkiWog+InBuMkRkDVOsxwiLi4CbwNM8K+OUxnqP9+lM3OBfxY8/+dDo4U5/+jb4l7bYiVLwDaZiUZWDnPdn+HLaRUGlNwRyouGb70vIuYuNw6wXy7Q3U4yzP": "utter_pizza_info",
+    "eJytkV0KwyAQhK/iAXqCXKWURcKaLK27opuGJuTuDZhAH1rMT98cGD/Hmes4XcwYIj7B1krClRnzAdh6rMwiHpQUefZ2CePsIZ6lVqaJiDoVGJ0qRsjWY4RFpFZ6CDQMFvQVMJ2j/fpT3Yok/HhnfzoXxeerf6NvSbttCJvuQA56ywoqIRA357CFhNY5iv7AxDnbl5V3EQvFrQ1sqi4HI3ZS5t3eqOtLzQ==": "action_listen"
+  }
+}

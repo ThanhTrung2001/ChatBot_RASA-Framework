@@ -1,0 +1,14 @@
+[
+  {
+    "name": "name",
+    "pattern": "/^([a-z]{1,10})((\\s{1}[a-z]{1,10}){1,4})$"
+  },
+  {
+    "name": "topping",
+    "pattern": "(\\bXúc\\ xích\\ hun\\ khói\\b|\\bNấm\\b|\\bThêm\\ phô\\ mai\\b|\\bLạp\\ xưởng\\b|\\bHành\\b|\\bÔ\\ liu\\ đen\\b|\\bỚt\\ xanh\\b|\\bTỏi\\ tươi\\b|\\bCà\\ chua\\b|\\bHúng\\ quế\\b)"
+  },
+  {
+    "name": "pizza_type",
+    "pattern": "(\\bbò\\b|\\bgà\\b|\\bhải\\ sản\\b|\\bheo\\b|\\băn\\ chay\\b)"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-customer_name",
+      "2": "I-customer_name",
+      "3": "L-customer_name",
+      "4": "U-customer_name",
+      "5": "B-pizza",
+      "6": "I-pizza",
+      "7": "L-pizza",
+      "8": "U-pizza",
+      "9": "B-pizza_size",
+      "10": "I-pizza_size",
+      "11": "L-pizza_size",
+      "12": "U-pizza_size",
+      "13": "B-pizza_type",
+      "14": "I-pizza_type",
+      "15": "L-pizza_type",
+      "16": "U-pizza_type",
+      "17": "B-topping",
+      "18": "I-topping",
+      "19": "L-topping",
+      "20": "U-topping",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-customer_name": 1,
+      "I-customer_name": 2,
+      "L-customer_name": 3,
+      "U-customer_name": 4,
+      "B-pizza": 5,
+      "I-pizza": 6,
+      "L-pizza": 7,
+      "U-pizza": 8,
+      "B-pizza_size": 9,
+      "I-pizza_size": 10,
+      "L-pizza_size": 11,
+      "U-pizza_size": 12,
+      "B-pizza_type": 13,
+      "I-pizza_type": 14,
+      "L-pizza_type": 15,
+      "U-pizza_type": 16,
+      "B-topping": 17,
+      "I-topping": 18,
+      "L-topping": 19,
+      "U-topping": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]
