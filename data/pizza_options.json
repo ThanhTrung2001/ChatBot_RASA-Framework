@@ -7,6 +7,7 @@
                     "name": "PIZZA LẠP XƯỞNG XỐT TRỨNG MUỐI MAYONNAISE - SAIGON MANIA PIZZA",
                     "description": "Lạp xưởng tươi, xốt trứng muối, xốt Mayonnaise dịu ngọt, ruốc khô (tép khô), bắp ngọt, hành lá, phô mai Mozzarella, xốt cà chua.",
                     "price": 99000,
+                    "image": "https://img.dominos.vn/pizza-lap-xuong2.jpg",
                     "promote": false
                 
                 },
@@ -14,48 +15,56 @@
                     "name": "PIZZA BÒ & TÔM NƯỚNG KIỂU MỸ - SURF & TURF",
                     "description":"Xốt Cà Chua, Xốt Phô Mai, Phô Mai Mozzarella, Tôm, Thịt Bò Mexico, Cà Chua, Hành Tây",
                     "price": 99000,
+                    "image": "https://img.dominos.vn/Singapore-style-seafood.jpg",
                     "promote": false
                 },
                 {
                     "name": "PIZZA BÁNH XÈO NHẬT - OKONOMIYAKI",
                     "description":"Xốt Mayonnaise, Xốt Teriyaki, Phô Mai Mozzarella, Bạch Tuộc, Tôm, Bắp Cải, Bột Rong Biển, Vẩy Cá Ngừ Bào",
                     "price": 99000,
+                    "image": "https://img.dominos.vn/Extravaganza.jpg",
                     "promote": false
                 },
                 {
                     "name": "PIZZA HẢI SẢN XỐT MAYONNAISE - OCEAN MANIA",
                     "description":"Xốt Cà Chua, Phô Mai Mozzarella, Tôm, Mực, Thanh Cua, Hành Tây",
                     "price": 99000,
+                    "image": "https://img.dominos.vn/Haft-haft.jpg",
                     "promote": false
                 },
                 {
                     "name": "PIZZA HẢI SẢN NHIỆT ĐỚI XỐT TIÊU - PIZZAMIN SEA",
                     "description":"Xốt tiêu đen, Phô Mai Mozzarella, Phô Mai Cheddar, Thơm, Hành Tây, Tôm, Mực",
                     "price": 99000,
+                    "image": "https://img.dominos.vn/Surf-_-turf.jpg",
                     "promote": false
                 },
                 {
                     "name": "HALF HALF",
                     "description":"Pizza là sự kết hợp topping của pizza Ocean Mania và pizza Cheesy Chicken Bacon",
                     "price": 99000,
+                    "image": "https://img.dominos.vn/Hawaiian.jpg",
                     "promote": false
                 },
                 {
                     "name": "PIZZA HẢI SẢN XỐT CÀ CHUA - SEAFOOD DELIGHT",
                     "description":"Xốt Cà Chua, Phô Mai Mozzarella, Tôm, Mực, Thanh Cua, Hành Tây",
                     "price": 99000,
+                    "image": "https://img.dominos.vn/Cheesy-chicken-bacon.jpg",
                     "promote": false
                 },
                 {
                     "name": "PIZZA HẢI SẢN KIỂU SINGAPORE - SINGAPORE STYLE SEAFOOD",
                     "description":"Xốt Singapore Cay, Phô Mai Mozzarella, Tôm, Thịt Cua, Hành Tây",
                     "price": 249000,
+                    "image": "https://img.dominos.vn/Prime-beef.jpg",
                     "promote": false
                 },
                 {
                     "name": "PIZZA 4 VỊ - PIZZA BIG 4",
                     "description":"Pizza là sự kết hợp của 4 loại pizza HAWAIIAN - OCEAN MANIA - TERIYAKI CHICKEN - SURF & TURF",
                     "price": 329000,
+                    "image": "https://img.dominos.vn/4P.jpg",
                     "promote": false
                 }
             ]
@@ -66,20 +75,23 @@
             "pizza": [
                 {
                     "name":"PIZZA THẬP CẨM THƯỢNG HẠNG - EXTRAVAGANZA",
-                    "price":99000,
                     "description":"Xốt Cà Chua, Phô Mai Mozzarella, Xúc Xích Pepperoni, Thịt Dăm Bông, Xúc Xich Ý, Thịt Bò Viên, Ớt Chuông Xanh, Nấm Mỡ, Hành Tây, Ô-liu",
+                    "price":99000,
+                    "image": "https://img.dominos.vn/Veggie-mania.jpg",
                     "promote": false
                 },
                 {
                     "name":"PIZZA 5 LOẠI THỊT THƯỢNG HẠNG - MEAT LOVERS",
-                    "price":99000,
                     "description":"Xốt Cà Chua, Phô Mai Mozzarella, Xúc Xích Pepperoni, Thịt Dăm Bông, Xúc Xich Ý, Thịt Bò Viên, Thịt Heo Muối",
+                    "price":99000,
+                    "image": "https://img.dominos.vn/Cheese-mania.jpg",
                     "promote": false
                 },
                 {
                     "name":"PIZZA BÒ MÊ-HI-CÔ THƯỢNG HẠNG - PRIME BEEF",
-                    "price":249000,
                     "description":"Xốt phô mai, Xốt cà chua, bò viên kiểu Ý, thịt bò Mexico, hành tây, cà chua, phô mai Mozzarella",
+                    "price":249000,
+                    "image": "https://img.dominos.vn/Pepperoni-feast-.jpg",
                     "promote": false
                 }
             ]
@@ -89,14 +101,16 @@
             "pizza":[
                 {
                     "name":"PIZZA GÀ XỐT TƯƠNG KIỂU NHẬT - TERIYAKI CHICKEN",
-                    "price":79000,
                     "description":"Xốt Teriyaki, Phô Mai Mozzarella, Mayonnaise, Gà, Nấm Mỡ, Hành Tây",
+                    "price":79000,
+                    "image": "https://img.dominos.vn/Meat-lover.jpg",
                     "promote": false
                 },
                 {
                     "name":"PIZZA GÀ PHÔ MAI THỊT HEO XÔNG KHÓI - CHEESY CHICKEN BACON",
-                    "price":79000,
                     "description":"Xốt Phô Mai, Thịt Gà, Thịt Heo Muối, Phô Mai Mozzarella, Cà Chua",
+                    "price":79000,
+                    "image": "https://img.dominos.vn/Kid-mania.jpg", 
                     "promote": false
                 }
             ]
@@ -106,20 +120,23 @@
             "pizza":[
                 {
                     "name":"PIZZA XÚC XÍCH Ý TRUYỀN THỐNG - PEPPERONI FEAST",
-                    "price":99000,
                     "description":"Xốt Cà Chua, Phô Mai Mozzarella, Xúc Xích Pepperoni",
+                    "price":99000,
+                    "image": "https://img.dominos.vn/Pizzaminsea.jpg",
                     "promote":false
                 },
                 {
                     "name":"PIZZA TRỨNG CÚT XỐT PHÔ MAI - KID MANIA",
-                    "price":79000,
                     "description":"Xốt Phô Mai, Phô Mai Mozzarella, Thịt Heo Muối, Bắp, Trứng Cút",
+                    "price":79000,
+                    "image": "https://img.dominos.vn/Extravaganza.jpg",
                     "promote":false
                 },
                 {
                     "name":"PIZZA GÀ PHÔ MAI THỊT HEO XÔNG KHÓI - CHEESY CHICKEN BACON",
-                    "price":79000,
                     "description":"Xốt Phô Mai, Thịt Gà, Thịt Heo Muối, Phô Mai Mozzarella, Cà Chua",
+                    "price":79000,
+                    "image": "https://img.dominos.vn/Okonomiyaki.jpg",
                     "promote":false
                 }
             ]
@@ -129,14 +146,16 @@
             "pizza":[
                 {
                     "name":"PIZZA RAU CỦ THẬP CẨM - VEGGIE MANIA",
-                    "price":79000,
                     "description":"Xốt Cà Chua Hoặc Xốt Pesto, Phô Mai Mozzarella, Hành Tây, Ớt Chuông Xanh, Ô-liu, Nấm Mỡ, Cà Chua, Thơm (dứa)",
+                    "price":79000,
+                    "image": "https://img.dominos.vn/Extravaganza.jpg",
                     "promote": false
                 },
                 {
                     "name":"PIZZA PHÔ MAI HẢO HẠNG - CHEESE MANIA",
-                    "price":79000,
                     "description":"Xốt Cà Chua, phô Mai Mozzarella",
+                    "price":79000,
+                    "image": "https://img.dominos.vn/Kid-mania.jpg",
                     "promote": false
                 }
             ]
